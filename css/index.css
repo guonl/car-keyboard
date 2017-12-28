@@ -1,0 +1,30 @@
+*{	margin: 0; padding: 0;list-style:none;border:0; box-sizing:border-box;}
+body{ background-color:#dbd6db;}
+.clearfix:after { content: "."; display: block; font-size: 0; height: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-table;}
+*html .clearfix { height: 1%; }
+.clearfix { display: block; }
+*+html .clearfix { min-height: 1%; }
+.che_tit{ text-align:center; padding:20px;}
+.ul_pro{ background-color:#CED3D9; text-align:center; padding:4px 2px; font-size:14px;}
+.ul_pro li{ float:left; width:11.11%; padding:2px;box-sizing: border-box;}
+.ul_pro .li_close{  float:right; width:22.22%;}
+.ul_pro .li_close span{ background-color:#ACB3BB;}
+.ul_pro .li_clean{  float:right; width:22.22%;}
+.ul_pro li span{ display:block; background-color:#fff; border-radius:4px; box-shadow: 2px 2px 2px #888888; /* max-width:48px; margin:0 auto; */ line-height:32px; padding-top:2px;  }
+.ul_pro li span:active{ background-color:#4DA9F2; color:#fff;}
+
+.ul_input{ padding:20px;width:350px; margin:0 auto; }
+.ul_input li{ float:left; width:14%; padding:2px;text-align:center; }
+.ul_input li span{ display:block; background-color:#fff; border:1px solid #ccc; border-radius:4px; width:40px; margin:0 auto; height:40px; line-height:40px; }
+
+.ul_keybord{ background-color:#CED3D9; text-align:center; padding:4px 2px; font-size:14px;}
+.ul_keybord li{ float:left; width:10%; padding:2px;box-sizing: border-box;}
+.ul_keybord .ikey20{ margin-left:5%;}
+.ul_keybord .li_w{ width:11.11%; }
+
+.ul_keybord .li_close{  float:right; width:22.22%;}
+.ul_keybord .li_close span{ background-color:#ACB3BB;}
+.ul_keybord .li_clean{  float:right; width:22.22%;}
+.ul_keybord li span{ display:block; background-color:#fff; border-radius:4px; box-shadow: 2px 2px 2px #888888; /* max-width:48px; margin:0 auto; */ line-height:32px; padding-top:2px;  }
+.ul_keybord li span:active{ background-color:#4DA9F2; color:#fff;}
